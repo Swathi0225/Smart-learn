@@ -975,4 +975,3 @@ export const getMoodSuggestion = (mood: string, isTamil: boolean) => {
 
   return isTamil ? suggestions[mood as keyof typeof suggestions]?.ta : suggestions[mood as keyof typeof suggestions]?.en;
 };
-  
